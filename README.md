@@ -59,9 +59,9 @@ Cette ligne retire juste l'étiquette « téléchargé depuis Internet » que le
 
 ### Sur Windows
 
-**[Télécharger Tunnel pour Windows (.exe)](https://github.com/DweEroz/tunnel-releases/releases/download/v2.0.1/Tunnel_2.0.1_x64-setup.exe)**
+**[Télécharger Tunnel pour Windows (.exe)](https://github.com/DweEroz/tunnel-releases/releases/download/v2.1.0/Tunnel_2.1.0_x64-setup.exe)**
 
-1. Double-clique le fichier `Tunnel_2.0.1_x64-setup.exe` téléchargé.
+1. Double-clique le fichier `Tunnel_2.1.0_x64-setup.exe` téléchargé.
 2. Si Windows affiche « Windows a protégé votre ordinateur » : clique **Informations complémentaires**, puis **Exécuter quand même**. Ce message apparaît parce que Tunnel n'est pas encore connu de Microsoft.
 3. Suis l'installation. Pas besoin d'être administrateur.
 4. Ouvre **Tunnel** depuis le menu Démarrer.
