@@ -1,4 +1,4 @@
-# Tunnel
+# Tunnel · Pomodoro × priorités × TDAH
 
 Tunnel t'aide à rester concentré longtemps sur une seule chose, puis à enchaîner sur la suivante sans te perdre.
 Tu choisis 3 priorités pour la journée, tu lances un « tunnel » (un minuteur de concentration), et l'app s'occupe du reste : la suite, les pauses, les petites tâches qui reviennent.
@@ -14,7 +14,7 @@ Elle est pensée pour les cerveaux qui décrochent vite : un seul écran, peu de
 
 ### Sur Mac
 
-**[Télécharger Tunnel pour Mac (.dmg)](https://github.com/DweEroz/tunnel-releases/releases/download/v2.0.0/Tunnel_2.0.0_universal.dmg)**
+**[Télécharger Tunnel pour Mac (.dmg)](https://github.com/DweEroz/tunnel-pomodoro-tdah/releases/download/v2.0.0/Tunnel_2.0.0_universal.dmg)**
 
 Ça marche sur tous les Mac récents, Intel comme Apple (M1, M2, M3, M4…).
 
@@ -59,7 +59,7 @@ Cette ligne retire juste l'étiquette « téléchargé depuis Internet » que le
 
 ### Sur Windows
 
-**[Télécharger Tunnel pour Windows (.exe)](https://github.com/DweEroz/tunnel-releases/releases/download/v2.1.0/Tunnel_2.1.0_x64-setup.exe)**
+**[Télécharger Tunnel pour Windows (.exe)](https://github.com/DweEroz/tunnel-pomodoro-tdah/releases/download/v2.1.0/Tunnel_2.1.0_x64-setup.exe)**
 
 1. Double-clique le fichier `Tunnel_2.1.0_x64-setup.exe` téléchargé.
 2. Si Windows affiche « Windows a protégé votre ordinateur » : clique **Informations complémentaires**, puis **Exécuter quand même**. Ce message apparaît parce que Tunnel n'est pas encore connu de Microsoft.
