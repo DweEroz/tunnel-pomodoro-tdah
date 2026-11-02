@@ -14,15 +14,15 @@ Elle est pensée pour les cerveaux qui décrochent vite : un seul écran, peu de
 
 ### Sur Mac
 
-**[Télécharger Tunnel pour Mac (.dmg)](https://github.com/DweEroz/tunnel-pomodoro-tdah/releases/download/v2.0.0/Tunnel_2.0.0_universal.dmg)**
+**[Télécharger Tunnel pour Mac (.dmg)](https://github.com/DweEroz/tunnel-pomodoro-tdah/releases/download/v2.2.0/Tunnel_2.2.0_universal.dmg)**
 
 Ça marche sur tous les Mac récents, Intel comme Apple (M1, M2, M3, M4…).
 
-Sur Mac, c'est la version 2.0.0 : c'est normal. La version suivante arrivera toute seule, avec le bandeau « Mise à jour disponible » (voir [Mises à jour](#mises-à-jour)). Tu n'auras rien à retélécharger.
+Les mises à jour arrivent ensuite toutes seules, avec le bandeau « Mise à jour disponible » (voir [Mises à jour](#mises-à-jour)). Tu n'auras jamais rien à retélécharger.
 
 **1. Installer**
 
-1. Double-clique le fichier `Tunnel_2.0.0_universal.dmg` téléchargé. Une fenêtre s'ouvre.
+1. Double-clique le fichier `Tunnel_2.2.0_universal.dmg` téléchargé. Une fenêtre s'ouvre.
 2. Fais glisser l'icône **Tunnel** sur le dossier **Applications**.
 3. Ferme la fenêtre, puis éjecte le disque « Tunnel » dans le Finder (bouton ⏏ à côté de son nom).
 
@@ -59,9 +59,9 @@ Cette ligne retire juste l'étiquette « téléchargé depuis Internet » que le
 
 ### Sur Windows
 
-**[Télécharger Tunnel pour Windows (.exe)](https://github.com/DweEroz/tunnel-pomodoro-tdah/releases/download/v2.1.0/Tunnel_2.1.0_x64-setup.exe)**
+**[Télécharger Tunnel pour Windows (.exe)](https://github.com/DweEroz/tunnel-pomodoro-tdah/releases/download/v2.2.0/Tunnel_2.2.0_x64-setup.exe)**
 
-1. Double-clique le fichier `Tunnel_2.1.0_x64-setup.exe` téléchargé.
+1. Double-clique le fichier `Tunnel_2.2.0_x64-setup.exe` téléchargé.
 2. Si Windows affiche « Windows a protégé votre ordinateur » : clique **Informations complémentaires**, puis **Exécuter quand même**. Ce message apparaît parce que Tunnel n'est pas encore connu de Microsoft.
 3. Suis l'installation. Pas besoin d'être administrateur.
 4. Ouvre **Tunnel** depuis le menu Démarrer.
@@ -78,7 +78,7 @@ Au tout premier lancement, l'app est remplie de **cartes d'exemple** : chaque ti
 
 Tout tient sur un écran :
 
-- **Au centre, le minuteur.** Choisis « Tunnel » (60 min par défaut, ou 25, 45, 90, sans fin), « Pause » (10 min) ou « Grande pause » (30 min). La tâche affichée dessous est celle sur laquelle tu vas travailler.
+- **Au centre, le minuteur.** Choisis « Tunnel », « Pause » (10 min) ou « Grande pause » (30 min). Sous LANCER, les pastilles règlent la durée du tunnel : 25 min (le pomodoro classique), 45 min, 1h (par défaut), 1h30, ∞ (sans fin), ou **Autre** pour taper ta durée. La tâche affichée dessous est celle sur laquelle tu vas travailler.
 - **Dessous, les priorités du jour.** 3 places maximum, numérotées 1, 2, 3. C'est ce qui compte vraiment aujourd'hui. Clique un titre pour le mettre dans le minuteur. Coche la case quand c'est fini : la priorité part, les suivantes remontent.
 - **À droite, les tâches à venir**, rangées en 3 listes : « Bientôt », « Ça peut attendre » et « Un jour ». Seule « Bientôt » est ouverte ; clique sur les autres pour les déplier.
 - **À gauche, les récurrents** : les petites tâches de 2-3 minutes qui reviennent tous les jours (répondre aux avis, vérifier une boîte mail…).
@@ -93,12 +93,24 @@ Clique **LANCER**. L'écran se vide pour ne garder que l'essentiel.
 
 - Le **chrono** décompte, avec une barre de progression.
 - La **tâche en cours** est affichée dessous. Si elle a des étapes (sous-tâches), elles sont là aussi, cochables, la prochaine mise en avant.
-- **Pause** arrête le chrono un moment. **+ 15 min** rallonge le tunnel.
-- **Finir le tunnel** termine plus tôt : ton temps de concentration est quand même compté.
+- **Suspendre** fige le chrono un moment (un appel, quelqu'un à ton bureau). **Reprendre** le relance.
+- **− 15 min** et **+ 15 min** raccourcissent ou rallongent le tunnel. « − 15 min » est grisé quand il reste 15 minutes ou moins : il ne coupe jamais le tunnel par surprise.
+- **Prendre ma pause** : tu en as besoin maintenant ? Le tunnel s'arrête (ton temps de concentration est compté) et la pause démarre tout de suite.
+- **Arrêter sans pause** (lien discret) termine le tunnel et te ramène à l'écran principal.
+- Clique sur le **titre de la tâche** (petit crayon) pour la modifier, sans arrêter le chrono.
 - Les priorités et les tâches à venir sont cachées pour ne pas te distraire. Le lien **Afficher quand même** les montre si besoin.
 - Une idée te traverse la tête ? **Noter une idée, sans quitter le tunnel** (en haut à droite, ou Ctrl+K). Tu la rangeras à la fin du tunnel.
 
-Quand le temps est écoulé, un son retentit et une notification s'affiche. Tunnel te propose alors la pause (une grande pause tous les 4 tunnels), puis le tunnel suivant.
+Quand le temps est écoulé, un son retentit et une notification s'affiche. Tunnel te propose alors la pause : 10 min, ou une grande pause de 30 min tous les 4 tunnels.
+
+### Pendant la pause
+
+![Pendant la pause : le chrono vert et la tâche qui suivra](docs/img/14-pendant-la-pause.png)
+
+- Le chrono passe en vert, et **Ensuite** te rappelle sur quoi tu repartiras.
+- **Suspendre**, **− 15 min** et **+ 15 min** marchent comme pendant un tunnel.
+- **Reprendre le tunnel** coupe la pause et relance un tunnel sur la tâche « Ensuite ».
+- Tes récurrents restent à gauche : une petite tâche de 2 minutes pendant la pause, c'est permis.
 
 ### « Tâche finie » et l'enchaînement automatique
 
